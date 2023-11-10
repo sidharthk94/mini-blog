@@ -1,0 +1,36 @@
+.blogContent{
+    width: 700px;
+   text-align: left;
+}
+h2 {
+    color: black;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.lonoName{
+    display: flex;
+    gap: 20px;
+}
+.sing{
+    color: rgb(160, 157, 157);
+    display: flex;
+    gap: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+}
+.extraOptions{
+    display: flex;
+    gap: 30px;
+}
