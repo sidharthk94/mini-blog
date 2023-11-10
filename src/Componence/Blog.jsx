@@ -1,6 +1,7 @@
 import axios from "axios";
 import "./Blog.css";
 import React, { useEffect, useState } from "react";
+import {AiOutlineLogout} from "react-icons/ai"
 
 const Blog = () => {
   const [blogs, setBlogs] = useState();
@@ -18,7 +19,9 @@ const Blog = () => {
     <div>
         <div className="navbar">
             <div className="lonoName">
-                <img src="/logo.png" alt="" className="logo" />
+            <div className="logo">
+            <AiOutlineLogout/>
+            </div>
                 <div>
                     <h1>HealthifY</h1>
                 </div>
